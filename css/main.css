@@ -1168,7 +1168,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #08ffff;
+  background: #49d599;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2439,10 +2439,18 @@ ul.breadcrumb li + li:last-child {
 .links-of-blogroll-item {
   padding: 0;
 }
+body {
+  background: url("https://img-blog.csdnimg.cn/20200718095047137.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNDc1MzM2,size_16,color_FFFFFF,t_70");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+}
 .content-wrap {
   background: initial;
   box-shadow: initial;
   padding: initial;
+  opacity: 0.7;
 }
 .post-block {
   background: var(--content-bg-color);
